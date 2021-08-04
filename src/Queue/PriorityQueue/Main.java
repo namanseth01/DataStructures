@@ -16,5 +16,6 @@ public class Main {
         queue.insertAccordingToPriority(80, 1);
         queue.insertAccordingToPriority(100,2);
         queue.display();
+        System.out.println("----------------");
     }
 }
