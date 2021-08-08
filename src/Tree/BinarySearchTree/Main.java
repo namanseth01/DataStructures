@@ -1,9 +1,9 @@
 /*   Created by IntelliJ IDEA.
- *   Author: Naman Seth (namanseth01)
- *   Date: 08/08/21
- *   Time: 9:55 PM
- *   File: Main.java
- */
+*   Author: Naman Seth (namanseth01)
+*   Date: 08/08/21
+*   Time: 9:55 PM
+*   File: Main.java
+*/
 
 package Tree.BinarySearchTree;
 
