@@ -32,50 +32,5 @@ public class Stack {
         }
     }
 
-    public void pop() {
-        if (isEmpty()) {
-            System.out.println("Underflow...");
-        } else {
-            Node temp = top;
-            while (temp.next != null) {
-                temp = temp.next;
-            }
-            temp.next = null;
-            System.out.println("Popped...");
-        }
-    }
-
-    void deleteAtPosition(int position){
-        if(position < getLength()){
-            Node temp = top;
-            int count = 0;
-            while(count < position - 1){
-                temp = temp.next;
-                ++count;
-            }
-            temp.next = temp.next.next;
-        }
-    }
-
-    public void peek() {
-        System.out.println("Element at the top of stack: " + top.data);
-    }
-
-    public void display() {
-        Node temp = top;
-        while(temp != null) {
-            System.out.print(temp.data + "->");
-            temp = temp.next;
-        }
-    }
-
-    public int getLength() {
-        int flag = 0;
-        Node temp = top;
-        while (temp != null) {
-            flag++;
-            temp = temp.next;
-        }
-        return flag;
-    }
+    
 }
